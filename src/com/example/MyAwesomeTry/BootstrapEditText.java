@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
+
 public class BootstrapEditText extends EditText {
 
     // =========== 枚举类 ===========

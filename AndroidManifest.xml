@@ -1,13 +1,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.MyAwesomeTry">
+
     <uses-sdk android:minSdkVersion="17"/>
-    <application android:label="hehe">
-        <activity android:name=".TestActivity"
-                android:theme="@android:style/Theme.Holo.Light">
+
+    <application>
+
+        <activity android:name=".example.ExampleActivity"
+                  android:label="hehe"
+                  android:theme="@android:style/Theme.Holo.Light">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
+
     </application>
+
 </manifest>

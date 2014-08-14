@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="white">#ffffffff</color>
     <color name="black">#ff000000</color>
     <color name="bbutton_edittext_border">#ccc</color>
@@ -19,14 +19,12 @@
     <color name="bbutton_danger_disabled">#a5d9534f</color>
     <color name="bbutton_danger_disabled_edge">#a5d43f3a</color>
 
-
     <color name="bbutton_success">#ff5cb85c</color>
     <color name="bbutton_success_edge">#ff4cae4c</color>
     <color name="bbutton_success_pressed">#ff47a447</color>
     <color name="bbutton_success_pressed_edge">#ff398439</color>
     <color name="bbutton_success_disabled">#a55cb85c</color>
     <color name="bbutton_success_disabled_edge">#a54cae4c</color>
-
 
     <color name="bbutton_warning">#fff0ad4e</color>
     <color name="bbutton_warning_edge">#ffeea236</color>

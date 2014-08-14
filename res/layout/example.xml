@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.example.MyAwesomeTry"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="40dp">
+
+    <com.example.MyAwesomeTry.BootstrapEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            app:roundedCorners="true"
+            android:text="Hey, Bearded-Hen and others,"
+            android:padding="10dp"/>
+
+    <com.example.MyAwesomeTry.BootstrapEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            app:roundedCorners="true"
+            android:hint="yours do the good job."
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="13dp"
+                  android:background="@drawable/bbuton_primary_rounded"
+                  android:gravity="center"
+                  android:layout_marginTop="30dp">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Awesome"
+                  android:textColor="@android:color/white"
+                  android:textSize="21dp"
+                  android:textStyle="bold"
+                  android:layout_marginRight="10dp"/>
+
+        <com.example.MyAwesomeTry.FontAwesomeIconView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="fa-thumbs-o-up"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
