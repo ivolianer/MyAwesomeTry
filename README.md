@@ -5,5 +5,5 @@
 
 附图 
 -----------------------------------  
-[github](https://github.com/ivolianer/MyAwesomeTry/blob/master/example.jpg "github")
 
+![example.jpg](/blob/master/example.jpg "example")
