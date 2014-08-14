@@ -6,4 +6,4 @@
 附图 
 -----------------------------------  
 
-![example.jpg](/blob/master/example.jpg "example")
+![example.jpg](https://github.com/ivolianer/MyAwesomeTry/blob/master/example.jpg "example")
