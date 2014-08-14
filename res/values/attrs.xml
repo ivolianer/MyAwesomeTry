@@ -1,0 +1,21 @@
+<resources>
+
+    <declare-styleable name="FontAwesomeIconView">
+        <attr name="icon" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="BootstrapEditText">
+        <attr name="roundedCorners" format="boolean"/>
+        <attr name="state" format="enum">
+            <!-- default 好像是关键字 -->
+            <enum name="success" value="1"/>
+            <enum name="warning" value="2"/>
+            <enum name="danger" value="3"/>
+        </attr>
+
+    </declare-styleable>
+
+
+
+</resources>
+

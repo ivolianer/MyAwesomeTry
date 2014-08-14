@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.example.MyAwesomeTry"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.example.MyAwesomeTry.BootstrapEditText android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:padding="5dp"
+                                                app:state="danger"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginRight="40dp" android:layout_marginLeft="40dp"
+                  android:padding="15dp"
+                  android:background="@drawable/bbuton_success_rounded"
+                  android:gravity="center"
+                  android:clickable="true"
+
+
+            >
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="查询"
+                  android:textColor="@android:color/white"
+                  android:textSize="21dp"
+                  android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+        <com.example.MyAwesomeTry.FontAwesomeIconView android:layout_width="wrap_content"
+                                                      android:layout_height="wrap_content"
+                                                      app:icon="fa-search"
+                                                      android:textSize="24dp"
+                                                      android:textColor="@android:color/white"
+                                                      android:layout_marginLeft="5dp"
+                />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
